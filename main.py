@@ -35,3 +35,6 @@ class FinanceInfo(Resource):
             return data['Adj Close'].to_json(orient="index", date_format='iso')
         except:
             return Response("{'Invalid argument'}", status=403, mimetype='invalid argument')
+
+
+api.add_resource(FinanceInfo, "/stock")
