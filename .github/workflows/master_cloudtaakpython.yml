@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'cloudtaakpython'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fce303be191a46bcabd1ffd2b194827d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fb43ca2ada70498d963436c51decc253 }}
