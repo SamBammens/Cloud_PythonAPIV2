@@ -38,3 +38,6 @@ class FinanceInfo(Resource):
 
 
 api.add_resource(FinanceInfo, "/stock")
+
+if __name__ == '__main__':
+    app.run(debug=True)
